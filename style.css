@@ -81,6 +81,7 @@ margin-top: 30px;
 .skill-icon {
     width: 60px;
     height: 60px;
+    object-fit: contain; 
 }
 
 /* .skill-icon i:hover {
