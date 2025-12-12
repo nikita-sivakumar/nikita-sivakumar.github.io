@@ -127,8 +127,9 @@ min-width: 200px;
   box-sizing: border-box;
 }
 
-.project-text a{
+.project-text a:hover{
   color: #845b2282;
+  text-decoration: underline;
 }
 
 /* right column: fixed-ish image column */
