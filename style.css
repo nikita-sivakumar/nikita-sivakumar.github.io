@@ -117,7 +117,7 @@ min-width: 200px;
 }
 
 .project-text a {
-  color: #007bff;
+  color: #845b2282;
   text-decoration: none;
   font-weight: bold;
 }
@@ -132,7 +132,7 @@ min-width: 200px;
 
 .project-image img {
   width: 100%;
-  max-width: 500px; /* limits image size */
+  max-width: 800px; /* limits image size */
   height: auto;
   display: block;
   border-radius: 5px;
