@@ -65,31 +65,27 @@ background: #f9f9f9;
     object-fit: cover;
 }
 
-/* Social icon container */
+/* Container for icon row */
 .social-icons {
     margin-top: 15px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;  /* center icons */
-    align-items: center;
-    gap: 18px;  
-
-    width: 60px;
-    height: 60px;
-    object-fit: contain; 
-    transition: transform 0.3s; /* smooth scale effect */
+    justify-content: center;
+    gap: 18px;
 }
 
-/* Icon appearance */
-.social-icons i {
-    font-size: 28px;
-    color: black;
-    transition: color 0.3s ease;
+/* Custom image icons */
+.social-icon-img {
+    width: 32px;        /* control exact size */
+    height: 32px;       /* force uniform square icons */
+    object-fit: contain; /* prevents distortion */
+    transition: transform 0.2s ease, filter 0.2s ease;
+    cursor: pointer;
 }
 
-/* Hover effect */
-.social-icons i:hover {
-    color: #9c6a4c;
+/* Hover effect: turn brown */
+.social-icon-img:hover {
+    filter: brightness(0) saturate(100%) sepia(60%) hue-rotate(10deg) saturate(400%) brightness(85%);
+    transform: scale(1.15);
 }
 
 .about-text {
