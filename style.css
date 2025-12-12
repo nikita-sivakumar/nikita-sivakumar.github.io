@@ -64,14 +64,14 @@ background: #f9f9f9;
     object-fit: cover;
 }
 
-/* --- Social Icons --- */
+/* Social icon container */
 .social-icons {
     margin-top: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: center;  /* center icons */
     align-items: center;
-    gap: 25px;
+    gap: 18px;                 /* FIXES OVERLAP */
     width: 100%;
 }
 
@@ -82,7 +82,7 @@ background: #f9f9f9;
     transition: color 0.3s ease;
 }
 
-/* Hover effect: brown */
+/* Hover effect */
 .social-icons i:hover {
     color: #9c6a4c;
 }
