@@ -144,17 +144,6 @@ min-width: 200px;
   border-radius: 6px;
 }
 
-/* PDF button styling (optional) */
-.pdf-button {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 8px 14px;
-  background: #4a4a4a;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 6px;
-}
-
 footer {
 text-align: center;
 padding: 30px;
