@@ -112,6 +112,7 @@ background: #f9f9f9;
 
 .skill-icon:hover {
   transform: scale(1.2);
+  color: #9c6a4c;
 }
 
 .skill {
