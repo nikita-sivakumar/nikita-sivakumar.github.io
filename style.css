@@ -82,6 +82,13 @@ transform: scale(1.2);
 transition: 0.3s;
 }
 
+.skill {
+  display: flex;
+  flex-direction: column; /* stack items vertically */
+  align-items: center;    /* center icon and text horizontally */
+  gap: 10px;              /* space between icon and text */
+}
+
 footer {
 text-align: center;
 padding: 30px;
