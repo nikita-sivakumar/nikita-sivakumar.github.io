@@ -127,6 +127,10 @@ min-width: 200px;
   box-sizing: border-box;
 }
 
+.project-text a{
+  color: #845b2282;
+}
+
 /* right column: fixed-ish image column */
 .project-image {
   flex: 0 0 480px;  /* don’t let the image column shrink below 480px on desktop */
