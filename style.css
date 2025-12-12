@@ -43,21 +43,50 @@ background: #f9f9f9;
 } */
 
 /* Bio section with circular photo */
-#about {
-display: flex;
-align-items: center;
-gap: 20px;
-flex-wrap: wrap;
+.bio-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
 }
+
+/* Left column: centered stack */
+.left-column {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .about-pic {
-width: 150px;
-height: 150px;
-border-radius: 50%;
-object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
+
+/* --- Social Icons --- */
+.social-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Icon appearance */
+.social-icons i {
+    font-size: 28px;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect: brown */
+.social-icons i:hover {
+    color: #9c6a4c;
+}
+
 .about-text {
-flex: 1; 
-min-width: 200px;
+    flex: 1; 
+    min-width: 200px;
 }
 
 /* Skills grid */
