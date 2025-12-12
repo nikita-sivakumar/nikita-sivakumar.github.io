@@ -73,7 +73,11 @@ background: #f9f9f9;
     justify-content: center;  /* center icons */
     align-items: center;
     gap: 18px;                 /* FIXES OVERLAP */
-    width: 100%;
+
+    width: 60px;
+    height: 60px;
+    object-fit: contain; 
+    transition: transform 0.3s; /* smooth scale effect */
 }
 
 /* Icon appearance */
