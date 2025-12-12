@@ -129,6 +129,12 @@ min-width: 200px;
 
 .project-text a {
     color:#333;
+    text-decoration: none;
+}
+
+.project-text a:visited {
+    color:#333;
+    text-decoration: none;
 }
 
 .project-text a:hover{
