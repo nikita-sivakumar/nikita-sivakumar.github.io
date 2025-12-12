@@ -46,6 +46,7 @@ background: #f9f9f9;
 .bio-container {
     display: flex;
     align-items: flex-start;
+    flex-direction: row;
     gap: 40px;
 }
 
