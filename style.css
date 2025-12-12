@@ -58,8 +58,8 @@ background: #f9f9f9;
 }
 
 .about-pic {
-    width: 150px;
-    height: 150px;
+    width: 3000px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -68,8 +68,11 @@ background: #f9f9f9;
 .social-icons {
     margin-top: 15px;
     display: flex;
-    justify-content: center;
-    gap: 15px;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    gap: 25px;
+    width: 100%;
 }
 
 /* Icon appearance */
