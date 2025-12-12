@@ -63,7 +63,8 @@ min-width: 200px;
 /* Skills grid */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 120px);
+    /* grid-template-columns: repeat(auto-fit, 120px); */
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-content: center;
     justify-items: center; /* centers each skill block in its grid cell */
@@ -73,12 +74,11 @@ min-width: 200px;
     width: 60px;
     height: 60px;
     object-fit: contain; 
+    transition: transform 0.3s; /* smooth scale effect */
 }
 
 .skill-icon:hover {
-color: #007bff;
-transform: scale(1.2);
-transition: 0.3s;
+  transform: scale(1.2);
 }
 
 .skill {
