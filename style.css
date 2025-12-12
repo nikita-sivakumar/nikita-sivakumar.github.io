@@ -56,6 +56,7 @@ background: #f9f9f9;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .about-pic {
@@ -84,7 +85,7 @@ background: #f9f9f9;
 
 /* Hover effect: turn brown */
 .social-icon-img:hover {
-    filter: brightness(0) saturate(100%) sepia(60%) hue-rotate(10deg) saturate(400%) brightness(85%);
+    /* filter: brightness(0) saturate(100%) sepia(60%) hue-rotate(10deg) saturate(400%) brightness(85%); */
     transform: scale(1.15);
 }
 
@@ -112,7 +113,7 @@ background: #f9f9f9;
 
 .skill-icon:hover {
   transform: scale(1.2);
-  color: #9c6a4c;
+  /* color: #9c6a4c; */
 }
 
 .skill {
