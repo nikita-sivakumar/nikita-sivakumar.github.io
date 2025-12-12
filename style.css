@@ -63,11 +63,9 @@ min-width: 200px;
 /* Skills grid */
 .skills-grid {
 display: grid;
-/* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+grid-template-columns: repeat(auto-fit, 120px);
 gap: 20px;
-justify-items: center;
-align-items: center;
-margin-top: 30px;
+justify-content: center;
 }
 
 .skill-icon {
@@ -84,9 +82,10 @@ transition: 0.3s;
 
 .skill {
   display: flex;
-  flex-direction: column; /* stack items vertically */
-  align-items: center;    /* center icon and text horizontally */
+  flex-direction: column; /* stack icon above text */
+  align-items: center;    /* center text under icon */
   gap: 10px;              /* space between icon and text */
+  text-align: center;
 }
 
 footer {
