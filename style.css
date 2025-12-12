@@ -62,10 +62,11 @@ min-width: 200px;
 
 /* Skills grid */
 .skills-grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, 120px);
-gap: 20px;
-justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 120px);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center; /* centers each skill block in its grid cell */
 }
 
 .skill-icon {
@@ -83,9 +84,9 @@ transition: 0.3s;
 .skill {
   display: flex;
   flex-direction: column; /* stack icon above text */
-  align-items: center;    /* center text under icon */
+  align-items: center;    /* centers icon and text horizontally */
+  text-align: center;     /* centers text under icon */
   gap: 10px;              /* space between icon and text */
-  text-align: center;
 }
 
 footer {
