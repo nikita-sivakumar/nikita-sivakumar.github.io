@@ -38,9 +38,9 @@ max-width: 900px;
 margin: auto;
 border-bottom: 1px solid #eee;
 }
-section:nth-child(even) {
+/* section:nth-child(even) {
 background: #f9f9f9;
-}
+} */
 
 /* Bio section with circular photo */
 #about {
