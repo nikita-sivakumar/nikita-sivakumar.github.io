@@ -69,11 +69,14 @@ justify-items: center;
 align-items: center;
 margin-top: 30px;
 }
-.skill p {
-margin-top: 10px;
-font-weight: bold;
-text-align: center;
+.skill {
+    width: 60px;
+    height: 60px;
 }
+/* margin-top: 10px;
+font-weight: bold;
+text-align: center; */
+
 .skill i:hover {
 color: #007bff;
 transform: scale(1.2);
