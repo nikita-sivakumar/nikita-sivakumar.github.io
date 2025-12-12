@@ -72,7 +72,7 @@ background: #f9f9f9;
     flex-direction: row;
     justify-content: center;  /* center icons */
     align-items: center;
-    gap: 18px;                 /* FIXES OVERLAP */
+    gap: 18px;  
 
     width: 60px;
     height: 60px;
