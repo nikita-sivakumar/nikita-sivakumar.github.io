@@ -64,7 +64,7 @@ min-width: 200px;
 .skills-grid {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-gap: 30px;
+gap: 20px;
 justify-items: center;
 align-items: center;
 margin-top: 30px;
