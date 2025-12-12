@@ -23,7 +23,7 @@ color: #333;
 font-weight: bold;
 }
 nav a:hover {
-color: #845b2282;
+  color: #594932;
 }
 
 header {
@@ -127,8 +127,12 @@ min-width: 200px;
   box-sizing: border-box;
 }
 
+.project-text a {
+    color:#333;
+}
+
 .project-text a:hover{
-  color: #845b2282;
+  color: #594932;
   text-decoration: underline;
 }
 
@@ -152,5 +156,5 @@ min-width: 200px;
 footer {
 text-align: center;
 padding: 30px;
-color: #845b2282;
+color: #594932;
 }
