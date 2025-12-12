@@ -70,13 +70,13 @@ align-items: center;
 margin-top: 30px;
 }
 
-.skill {
+/* .skill {
   display: flex;
   flex-direction: column; /* stack items vertically */
   align-items: center;    /* center icon and text horizontally */
   gap: 10px;              /* space between icon and text */
   font-weight: bold;
-}
+} */
 
 .skill-icon {
     width: 60px;
@@ -84,11 +84,11 @@ margin-top: 30px;
     object-fit: contain; 
 }
 
-/* .skill-icon i:hover {
+.skill-icon i:hover {
 color: #007bff;
 transform: scale(1.2);
 transition: 0.3s;
-} */
+}
 
 footer {
 text-align: center;
