@@ -70,13 +70,6 @@ align-items: center;
 margin-top: 30px;
 }
 
-/* .skill {
-  display: flex;
-  flex-direction: column; /* stack items vertically */
-  align-items: center;    /* center icon and text horizontally */
-  gap: 10px;              /* space between icon and text */
-  font-weight: bold;
-} */
 
 .skill-icon {
     width: 60px;
